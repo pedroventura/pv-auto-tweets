@@ -18,7 +18,10 @@ Para ver el listado completo de métodos y usos de la API, ir a la documentació
 + OAuth.php
 + twitteroauth.php
 + README
- 
+
+* Fuente: 
+La primera versión del código es del siguiente autor: http://www.webinfopedia.com/auto-tweet-with-oauth-in-php.html
  
 ## TO-DO ##
  Como indico en mi artículo a partir de este ejemplo se puede diversificar mucho los usos que se pueden dar a este proyecto.
+
