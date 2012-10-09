@@ -1,21 +1,16 @@
 <?php
-//www.webinfopedia.com
-//http://www.webinfopedia.com/auto-tweet-with-oauth-in-php.html
 
-
-$consumerKey    = 'Consumer Key';
-$consumerSecret = 'Consumer Secret Key';
-$oAuthToken     = 'OAuth Token';
+$consumerKey    = 'Consumer-Key';
+$consumerSecret = 'Consumer-Secret';
+$oAuthToken     = 'OAuthToken';
 $oAuthSecret    = 'OAuth Secret';
 
+// incluimos la librería para usar la API OAuth
 require_once('twitteroauth.php');
 
 $tweet = new TwitterOAuth($consumerKey, $consumerSecret, $oAuthToken, $oAuthSecret);
 
-require_once("db.php");
-$sql=mysql_query("select url,title from webinfo_pre_article order by rand()");
-$showfetch=mysql_fetch_array($sql);
+# aqui tu lógica para recoger el contenido del tweet, ya sea de tu base de datos, feed, rss o fichero
 
-$tweet->post('statuses/update', array('status' => ''.$showfetch['title'].'
-http://www.webinfopedia.com/'.$showfetch['url'].''));
+$tweet->post('statuses/update', array('status' => 'Aqui contenido de tu tweet, tambien puedes enviar urls o hashtags'));
 ?>
