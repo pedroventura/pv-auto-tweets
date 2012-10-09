@@ -1,6 +1,4 @@
 <?php
-//www.webinfopedia.com
-//http://www.webinfopedia.com/auto-tweet-with-oauth-in-php.html
 
 /* Load OAuth lib. You can find it at http://oauth.net */
 require_once('OAuth.php');
