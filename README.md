@@ -1,8 +1,10 @@
 # README #
 Esta es mi primera aplicación para Twitter usando la API OAuth con PHP.
 Se trata de un ejemplo básico de como enviar tweets de manera automática a una cuenta de Twitter específica.
-Para leer más sobre el proyecto leer el siguiente artículo:
+Para saber más sobre el proyecto leer el siguiente artículo:
 [Enviar tweets automáticamente en PHP con la API OAuth de Twitter y un Cron job](http://www.pedroventura.com/desarrollo-web/enviar-tweets-automaticamente-en-php-con-la-api-oauth-de-twitter-y-un-cron-job/ "Enviar tweets automáticamente en PHP con la API OAuth de Twitter y un Cron job").-
+
+En el artículo explico como implementar completamente el proyecto, otras ideas y la manera en que uso el sistema para publicar automáticamente tweets en Twitter.
  
  
 ## Sobre los archivos del proyecto ##
