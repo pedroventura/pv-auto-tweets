@@ -1,6 +1,4 @@
 <?php
-//www.webinfopedia.com
-//http://www.webinfopedia.com/auto-tweet-with-oauth-in-php.html
 
 if (!class_exists('OAuthException')) {
 
