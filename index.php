@@ -5,12 +5,12 @@ $consumerSecret = 'Consumer-Secret';
 $oAuthToken     = 'OAuthToken';
 $oAuthSecret    = 'OAuth Secret';
 
-// incluimos la librería para usar la API OAuth
+# API OAuth
 require_once('twitteroauth.php');
 
 $tweet = new TwitterOAuth($consumerKey, $consumerSecret, $oAuthToken, $oAuthSecret);
 
-# aqui tu lógica para recoger el contenido del tweet, ya sea de tu base de datos, feed, rss o fichero
+# your code to retrieve data goes here, you can fetch your data from a rss feed or database
 
-$tweet->post('statuses/update', array('status' => 'Aqui contenido de tu tweet, tambien puedes enviar urls o hashtags'));
+$tweet->post('statuses/update', array('status' => 'here the content of your tweet, you can add hashtags or links'));
 ?>
